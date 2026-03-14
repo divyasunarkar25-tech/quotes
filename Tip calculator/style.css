@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 222, 244);
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: rgb(249, 130, 221);
+    padding: 30px;
+    margin: 40px;
+    text-align: center;
+    
+}
+input{
+    background-color: rgb(229, 240, 251);
+    padding: 10px;
+    margin-left: 20px;
+    transition: 0.3s;
+    
+}
+input:hover{
+    transform: scale(1.1);
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    color: rgb(125, 249, 249);
+    background-color: black;
+    justify-content: center;
+    font-size: large;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.05);
+    background-color: rgb(118, 115, 115);
+}
